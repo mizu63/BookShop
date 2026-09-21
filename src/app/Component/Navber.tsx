@@ -31,7 +31,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a href="/books">Books</a>
+                <Link href="/books">Books</Link>
               </li>
               <li>
                 <a>Parent</a>
@@ -49,9 +49,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href="/">
-  <div className="items-center">
-    Book Vibe
+         <Link href="/">
+  <div className="flex items-center gap-2 text-2xl font-bold text-purple-600 transition-all duration-300 hover:scale-105">
+    📚 Book Vibe
   </div>
 </Link>
         </div>

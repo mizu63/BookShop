@@ -1,3 +1,5 @@
+import ReadBooks from "@/app/Component/Botton/ReadBooks";
+import Wishlist from "@/app/Component/Botton/wishlist";
 import { IBook } from "@/Ibook.type";
 import Image from "next/image";
 import React from "react";
@@ -136,6 +138,10 @@ const BookDetailsPage = async ({ params }: IBookDetailsPageProps) => {
               <p className="text-xs text-base-content/50">Rating</p>
               <p className="mt-1 font-bold">⭐ {book.rating}</p>
             </div>
+          </div>
+           <div className="card-actions mt-2">
+            <ReadBooks book={book}/>
+            <Wishlist book={book}/>
           </div>
         </div>
       </div>

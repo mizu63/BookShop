@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navber from "./Component/Navber";
+import Cardcontext from "./Component/context/Cradcontext";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,9 +28,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
          
-       <Navber/>
+     <Cardcontext>
+
+        <Navber/>
            
         {children}
+         <ToastContainer />
+     </Cardcontext>
         
         </body>
     </html>
