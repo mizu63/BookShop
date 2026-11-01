@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 BookShop - Book Management Platform
 
-## Getting Started
+A modern and responsive book management web application where users can explore books, view detailed information, and sort books based on different preferences.
 
-First, run the development server:
+## 📌 About The Project
+
+BookShop is a book management platform built with Next.js, React, TypeScript, and Tailwind CSS. It provides an interactive interface for browsing a collection of books, exploring book details, and organizing books based on ratings, total pages, and publication years.
+
+This project was developed to practice modern React and Next.js concepts, component-based architecture, state management, and responsive web design.
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Context API
+- daisyUI
+
+## ✨ Key Features
+
+### 📚 Book Collection
+
+- Browse a collection of books.
+- View book titles, authors, categories, and ratings.
+- Explore books through an attractive interface.
+- Display books using reusable components.
+
+### 📖 Book Details
+
+- View detailed information about individual books.
+- Display author and publisher information.
+- Read book reviews.
+- View total pages, ratings, and publication years.
+
+### 🔎 Book Sorting
+
+- Sort books by rating.
+- Sort books by total pages.
+- Sort books by publication year.
+- Easily organize books based on preferences.
+
+### ⚛️ State Management
+
+- Manage application data using React Context API.
+- Share book-related data across components.
+- Build reusable and maintainable components.
+
+### 📱 Responsive Design
+
+- Responsive layout for mobile, tablet, and desktop.
+- Clean and modern user interface.
+- Mobile-friendly design.
+- Consistent styling with Tailwind CSS and daisyUI.
+
+## 🧩 Main Components
+
+- **Banner:** Displays the homepage banner section.
+- **Books:** Displays the collection of available books.
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/mizu63/BookShop.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd BookShop
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔗 GitHub Repository
 
-## Learn More
+[View BookShop Source Code](https://github.com/mizu63/BookShop)
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Mizu Ahmmed**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Frontend Developer | React.js | Next.js | JavaScript | TypeScript | Tailwind CSS
 
-## Deploy on Vercel
+- GitHub: [@mizu63](https://github.com/mizu63)
+- LinkedIn: [Mizu Ahmmed](https://www.linkedin.com/in/mizu-ahmmed/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ If you like this project, don't forget to give it a star!
